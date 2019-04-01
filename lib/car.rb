@@ -1,5 +1,6 @@
  require_relative "./vehicle.rb"
-require pryr
+require 'pry'
+
 class Car < Vehicle
 def go 
   binding.pry 
